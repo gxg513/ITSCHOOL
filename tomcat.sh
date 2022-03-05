@@ -5,4 +5,4 @@ sudo cat /var/lib/tomcat9/conf/server.xml | grep 9999
 
 systemctl restart tomcat9
  sudo usermod -aG tomcat jenkins
- sudo usermod -aG rpot jenkins
+ sudo usermod -aG root jenkins
