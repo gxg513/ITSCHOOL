@@ -1,4 +1,6 @@
 curl -fsSL https://get.docker.com -o get-docker.sh
-DRY_RUN=1 sh ./get-docker.sh
+sleep 3
+sh ./get-docker.sh
+sleep 3
 sudo usermod -aG docker jenkins
 sudo usermod -aG docker ubuntu
